@@ -1,0 +1,384 @@
+{
+  "lead": {
+    "name": "fastapi/fastapi",
+    "website": "https://fastapi.tiangolo.com/",
+    "source": "github-api",
+    "source_url": "https://github.com/fastapi/fastapi",
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+    "extra": {
+      "stars": 104771,
+      "language": "Python",
+      "repo": "https://github.com/fastapi/fastapi",
+      "topics": [
+        "api",
+        "async",
+        "fastapi",
+        "framework",
+        "json",
+        "json-schema",
+        "openapi",
+        "pydantic",
+        "python",
+        "rest",
+        "sse",
+        "streaming",
+        "web",
+        "websockets"
+      ]
+    }
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 6.89,
+    "find_documentation": 8.84,
+    "collect_contacts": 18.72
+  },
+  "stage": "collect_contacts",
+  "homepage_url": "https://fastapi.tiangolo.com/",
+  "header_doc_links": [
+    {
+      "url": "https://fastapi.tiangolo.com/learn/",
+      "text": "Learn"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/",
+      "text": "Reference"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "text": "Tutorial - User Guide"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "text": "Metadata and Docs URLs"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/advanced/",
+      "text": "Advanced User Guide"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/advanced/generate-clients/",
+      "text": "Generating SDKs"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "text": "Custom Docs UI Static Assets (Self-Hosting)"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/fastapi/",
+      "text": "FastAPI class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/parameters/",
+      "text": "Request Parameters"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/status/",
+      "text": "Status Codes"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/uploadfile/",
+      "text": "UploadFile class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/exceptions/",
+      "text": "Exceptions - HTTPException and WebSocketException"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/dependencies/",
+      "text": "Dependencies - Depends() and Security()"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/apirouter/",
+      "text": "APIRouter class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/background/",
+      "text": "Background Tasks - BackgroundTasks"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/request/",
+      "text": "Request class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/websockets/",
+      "text": "WebSockets"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/httpconnection/",
+      "text": "HTTPConnection class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/response/",
+      "text": "Response class"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/responses/",
+      "text": "Custom Response Classes - File, HTML, Redirect, Streaming, etc."
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/sse/",
+      "text": "Server-Sent Events - EventSourceResponse and ServerSentEvent"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/middleware/",
+      "text": "Middleware"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/openapi/",
+      "text": "OpenAPI"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "text": "OpenAPI docs"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/openapi/models/",
+      "text": "OpenAPI models"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/security/",
+      "text": "Security Tools"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/encoders/",
+      "text": "Encoders - jsonable_encoder"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/staticfiles/",
+      "text": "Static Files - StaticFiles"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/templating/",
+      "text": "Templating - Jinja2Templates"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/testclient/",
+      "text": "Test Client - TestClient"
+    }
+  ],
+  "assessment": {
+    "business_type": "developer API framework",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The website is for FastAPI, a high-performance Python web framework for building APIs, which inherently requires extensive developer documentation such as tutorials, API references, and guides. The site includes comprehensive documentation sections like Learn, Reference, and Tutorials, indicating a strong focus on documentation quality, making it worthwhile to pursue."
+  },
+  "docs": {
+    "doc_url": "https://fastapi.tiangolo.com/",
+    "score": 11,
+    "signals": [
+      "+2 code_blocks (13)",
+      "+1 many_code_blocks",
+      "+2 install_command",
+      "+2 doc_headings (example, installation)",
+      "+3 doc_platform (swagger-ui)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+        "reason": "header link 'Metadata and Docs URLs'",
+        "score": 7,
+        "signals": [
+          "+2 code_blocks (7)",
+          "+1 many_code_blocks",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+        "reason": "header link 'Custom Docs UI Static Assets (Self-Hosting)'",
+        "score": 7,
+        "signals": [
+          "+2 code_blocks (12)",
+          "+1 many_code_blocks",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+        "reason": "header link 'OpenAPI docs'",
+        "score": 9,
+        "signals": [
+          "+2 code_blocks (8)",
+          "+1 many_code_blocks",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/learn/",
+        "reason": "header link 'Learn'",
+        "score": 8,
+        "signals": [
+          "+2 code_blocks (1)",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/",
+        "reason": "header link 'Reference'",
+        "score": 8,
+        "signals": [
+          "+2 code_blocks (1)",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/tutorial/",
+        "reason": "header link 'Tutorial - User Guide'",
+        "score": 10,
+        "signals": [
+          "+2 code_blocks (4)",
+          "+1 many_code_blocks",
+          "+2 install_command",
+          "+1 doc_headings (tutorial)",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/advanced/",
+        "reason": "header link 'Advanced User Guide'",
+        "score": 6,
+        "signals": [
+          "+2 code_blocks (1)",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/advanced/generate-clients/",
+        "reason": "header link 'Generating SDKs'",
+        "score": 7,
+        "signals": [
+          "+2 code_blocks (9)",
+          "+1 many_code_blocks",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/fastapi/",
+        "reason": "header link 'FastAPI class'",
+        "score": 10,
+        "signals": [
+          "+2 code_blocks (77)",
+          "+1 many_code_blocks",
+          "+1 doc_headings (webhooks)",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/parameters/",
+        "reason": "header link 'Request Parameters'",
+        "score": 9,
+        "signals": [
+          "+2 code_blocks (17)",
+          "+1 many_code_blocks",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/status/",
+        "reason": "header link 'Status Codes'",
+        "score": 10,
+        "signals": [
+          "+2 code_blocks (81)",
+          "+1 many_code_blocks",
+          "+1 doc_headings (example)",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/reference/uploadfile/",
+        "reason": "header link 'UploadFile class'",
+        "score": 9,
+        "signals": [
+          "+2 code_blocks (18)",
+          "+1 many_code_blocks",
+          "+2 doc_url",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://fastapi.tiangolo.com/",
+        "reason": "homepage",
+        "score": 11,
+        "signals": [
+          "+2 code_blocks (13)",
+          "+1 many_code_blocks",
+          "+2 install_command",
+          "+2 doc_headings (example, installation)",
+          "+3 doc_platform (swagger-ui)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  },
+  "skip_reason": "no contact information found (30 pages crawled)",
+  "raw_contacts": {
+    "emails": {},
+    "phones": {},
+    "pages_visited": [
+      "https://fastapi.tiangolo.com/",
+      "https://fastapi.tiangolo.com/about/",
+      "https://fastapi.tiangolo.com/about/",
+      "https://fastapi.tiangolo.com/editor-support/",
+      "https://fastapi.tiangolo.com/deployment/versions/",
+      "https://fastapi.tiangolo.com/deployment/https/",
+      "https://fastapi.tiangolo.com/newsletter/",
+      "https://fastapi.tiangolo.com/de/",
+      "https://fastapi.tiangolo.com/de/about/",
+      "https://fastapi.tiangolo.com/es/",
+      "https://fastapi.tiangolo.com/es/about/",
+      "https://fastapi.tiangolo.com/fr/",
+      "https://fastapi.tiangolo.com/fr/about/",
+      "https://fastapi.tiangolo.com/hi/",
+      "https://fastapi.tiangolo.com/hi/about/",
+      "https://fastapi.tiangolo.com/hi/editor-support/",
+      "https://fastapi.tiangolo.com/ja/",
+      "https://fastapi.tiangolo.com/ja/about/",
+      "https://fastapi.tiangolo.com/ko/",
+      "https://fastapi.tiangolo.com/ko/about/",
+      "https://fastapi.tiangolo.com/pt/",
+      "https://fastapi.tiangolo.com/pt/about/",
+      "https://fastapi.tiangolo.com/ru/",
+      "https://fastapi.tiangolo.com/ru/about/",
+      "https://fastapi.tiangolo.com/tr/",
+      "https://fastapi.tiangolo.com/tr/about/",
+      "https://fastapi.tiangolo.com/uk/",
+      "https://fastapi.tiangolo.com/uk/about/",
+      "https://fastapi.tiangolo.com/zh/",
+      "https://fastapi.tiangolo.com/zh/about/"
+    ]
+  }
+}

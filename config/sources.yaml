@@ -1,0 +1,31 @@
+# Lead sources. Each entry picks an adapter and gives it a URL plus options.
+# To add a new site, copy an entry. Most listing sites work with the
+# `browser_listing` adapter by changing the selectors; see
+# leadscraper/sources/browser_listing.py for every option.
+#
+# Run `python -m leadscraper sources` to list them and
+# `python -m leadscraper collect --source <name> --limit 5` to test one
+# without spending any LLM calls.
+
+sources:
+  - name: github-api
+    adapter: github_topic
+    url: https://github.com/topics/api
+
+  - name: github-developer-tools
+    adapter: github_topic
+    url: https://github.com/topics/developer-tools
+
+  - name: producthunt-developer-tools
+    adapter: browser_listing
+    url: https://www.producthunt.com/topics/developer-tools?order=recent_launches
+    options:
+      # Product cards link to /products/<slug>; review links etc. are excluded.
+      item_link_pattern: '^/products/[a-z0-9-]+/?$'
+      website_selector: 'a[data-test="visit-website-button"]'
+      name_selector: 'h1'
+      scroll_rounds: 5
+      # Product Hunt is behind Cloudflare. "auto" tries headless first and
+      # reopens in a visible Chrome window when challenged.
+      headless: auto
+      delay_ms: 1500

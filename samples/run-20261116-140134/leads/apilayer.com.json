@@ -1,0 +1,310 @@
+{
+  "lead": {
+    "name": "public-apis/public-apis",
+    "website": "https://apilayer.com/",
+    "source": "github-api",
+    "source_url": "https://github.com/public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "extra": {
+      "stars": 499411,
+      "language": "Python",
+      "repo": "https://github.com/public-apis/public-apis",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ]
+    }
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 6.88,
+    "find_documentation": 20.56,
+    "collect_contacts": 90.97,
+    "purify_contacts": 1.03,
+    "analyze_documentation": 3.44,
+    "generate_report": 5.36
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://apilayer.com/",
+  "header_doc_links": [
+    {
+      "url": "https://apilayer.com/developers/",
+      "text": "Developers"
+    },
+    {
+      "url": "https://apilayer.com/developers/suite/",
+      "text": "Use Cases"
+    },
+    {
+      "url": "https://docs.apilayer.com/apilayer/docs/api-layer-hub",
+      "text": "Documentation"
+    }
+  ],
+  "assessment": {
+    "business_type": "API marketplace",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The site offers 40+ production-ready APIs with clear developer-focused resources including a Documentation section, Developer guides, and Use Cases. The product is technical and developer-centric, making documentation quality important and relevant."
+  },
+  "docs": {
+    "doc_url": "https://docs.apilayer.com/apilayer/docs/api-layer-hub",
+    "score": 7,
+    "signals": [
+      "+1 inline_code (5)",
+      "+2 doc_url",
+      "+3 doc_platform (stoplight)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.apilayer.com/apilayer/docs/api-layer-hub",
+        "reason": "header link 'Documentation'",
+        "score": 7,
+        "signals": [
+          "+1 inline_code (5)",
+          "+2 doc_url",
+          "+3 doc_platform (stoplight)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://apilayer.com/developers/",
+        "reason": "header link 'Developers'",
+        "score": 3,
+        "signals": [
+          "+1 doc_headings (sdks)",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://apilayer.com/developers/suite/",
+        "reason": "header link 'Use Cases'",
+        "score": 4,
+        "signals": [
+          "+2 install_command",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.apilayer.com/",
+        "reason": "common docs path",
+        "score": 6,
+        "signals": [
+          "+1 doc_headings (changelog)",
+          "+2 doc_url",
+          "+3 doc_platform (stoplight)"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://apilayer.com/developers/",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+1 doc_headings (sdks)",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.apilayer.com/",
+        "reason": "common docs subdomain",
+        "score": 6,
+        "signals": [
+          "+1 doc_headings (changelog)",
+          "+2 doc_url",
+          "+3 doc_platform (stoplight)"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://apilayer.com/",
+        "reason": "homepage",
+        "score": 0,
+        "signals": [],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "customercare@apilayer.com": [
+        "https://apilayer.com/contact-us/"
+      ],
+      "support@apilayer.com": [
+        "https://apilayer.com/why-choose-apilayer/",
+        "https://apilayer.com/faqs/"
+      ],
+      "sales@acme.com": [
+        "https://blog.apilayer.com/"
+      ]
+    },
+    "phones": {},
+    "pages_visited": [
+      "https://apilayer.com/",
+      "https://apilayer.com/contact-us/",
+      "https://apilayer.com/support/",
+      "https://apilayer.com/support/",
+      "https://apilayer.com/contact-us/",
+      "https://apilayer.com/why-choose-apilayer/",
+      "https://docs.apilayer.com/apilayer/docs/api-layer-hub",
+      "https://apilayer.com/products/",
+      "https://apilayer.com/industries/",
+      "https://apilayer.com/enterprise/",
+      "https://blog.apilayer.com/",
+      "https://apilayer.com/faqs/",
+      "https://apilayer.com/developers/",
+      "https://apilayer.com/developers/suite/",
+      "https://app.apilayer.com/login",
+      "https://app.apilayer.com/signup",
+      "https://apilayer.com/products/aviationstack/",
+      "https://apilayer.com/products/ipstack/",
+      "https://apilayer.com/products/serpstack/",
+      "https://apilayer.com/products/mediastack/",
+      "https://app.apilayer.com/signup/ipstack",
+      "https://app.apilayer.com/signup/marketstack/",
+      "https://app.apilayer.com/signup/aviationstack/",
+      "https://app.apilayer.com/signup/serpstack/",
+      "https://blog.apilayer.com/mcp-vs-cli-which-is-better-for-ai-assisted-developer-workflows/",
+      "https://blog.apilayer.com/stock-data-api-guide-how-to-get-real-time-and-historical-stock-prices-using-rest-endpoints/",
+      "https://blog.apilayer.com/intraday-stock-data-explained-what-it-is-how-it-works-and-how-to-use-it-for-charts-alerts-and-backtesting/",
+      "https://blog.apilayer.com/ip-address-metadata-explained-what-you-can-learn-from-an-ip-isp-asn-location-and-more/",
+      "https://blog.apilayer.com/static-ip-address-explained-what-it-is-pros-cons-costs-and-when-you-need-one/",
+      "https://docs.apilayer.com/"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "customercare@apilayer.com",
+      "support@apilayer.com"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "customercare@apilayer.com",
+      "support@apilayer.com"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "doc_metrics": {
+    "pages_sampled": 1,
+    "doc_nav_links": 0,
+    "code_blocks_total": 0,
+    "avg_words_per_page": 556,
+    "code_languages": [],
+    "has_search": false,
+    "signals_seen": [
+      "doc_platform",
+      "doc_url",
+      "inline_code",
+      "sidebar_toc"
+    ],
+    "discovery_score": 7,
+    "discovery_signals": [
+      "+1 inline_code (5)",
+      "+2 doc_url",
+      "+3 doc_platform (stoplight)",
+      "+1 sidebar_toc"
+    ]
+  },
+  "doc_pages": [
+    {
+      "url": "https://docs.apilayer.com/apilayer/docs/api-layer-hub",
+      "title": "APILayer | APILayer-Ecosystem | APILayer"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "API marketplace hub overview",
+    "quality": {
+      "score": 7,
+      "justification": "The page is clearly written with consistent terminology and explains the unified API model well, but it lacks code examples and detailed endpoint descriptions which limits clarity for implementation."
+    },
+    "completeness": {
+      "score": 5,
+      "justification": "The page provides a good catalog overview and authentication model but misses detailed API references, error code explanations, quickstart guides, and usage examples."
+    },
+    "usability": {
+      "score": 6,
+      "justification": "The presence of a sidebar TOC aids navigation, but the lack of search and no visible navigation links reduce discoverability and ease of use."
+    },
+    "overall_score": 6,
+    "strengths": [
+      "Clear explanation of unified API design and authentication model",
+      "Comprehensive catalog listing with categories and descriptions",
+      "Consistent terminology and standardized error code mention"
+    ],
+    "weaknesses": [
+      "No code examples or sample requests/responses",
+      "No detailed endpoint or parameter documentation",
+      "No quickstart or tutorial sections",
+      "No search functionality",
+      "No visible navigation links beyond sidebar TOC"
+    ],
+    "missing_sections": [
+      "Quickstart guide",
+      "Detailed API endpoint reference",
+      "Authentication setup instructions",
+      "Error codes and handling documentation",
+      "Code examples and SDK usage",
+      "Search functionality"
+    ]
+  },
+  "report": {
+    "executive_summary": "The documentation for the API marketplace hub provides a clear overview of the unified API design and authentication model, along with a comprehensive catalog listing. However, it lacks critical implementation details such as code examples, detailed endpoint references, quickstart guides, and error handling information. Navigation is somewhat supported by a sidebar table of contents but is hindered by the absence of search functionality and visible navigation links, which affects usability and discoverability.",
+    "improvements": [
+      {
+        "area": "Code Examples and Sample Requests",
+        "issue": "No code examples or sample requests/responses are provided, limiting practical understanding for developers.",
+        "recommendation": "Add code snippets and sample requests/responses for key endpoints to demonstrate usage clearly.",
+        "priority": "high"
+      },
+      {
+        "area": "Detailed API Endpoint Documentation",
+        "issue": "The documentation lacks detailed descriptions of API endpoints and parameters, making it difficult for users to implement the APIs effectively.",
+        "recommendation": "Include comprehensive endpoint references with parameter details, request/response schemas, and example calls.",
+        "priority": "high"
+      },
+      {
+        "area": "Quickstart Guide and Tutorials",
+        "issue": "There is no quickstart guide or tutorial sections to help new users get started quickly.",
+        "recommendation": "Develop quickstart guides and step-by-step tutorials to facilitate onboarding and reduce time to first successful API call.",
+        "priority": "medium"
+      },
+      {
+        "area": "Error Codes and Handling",
+        "issue": "Error codes and handling instructions are not documented in detail, which can hinder troubleshooting.",
+        "recommendation": "Provide a detailed list of error codes with explanations and recommended handling strategies.",
+        "priority": "medium"
+      },
+      {
+        "area": "Search Functionality and Navigation Links",
+        "issue": "The documentation lacks search functionality and visible navigation links beyond the sidebar TOC, reducing ease of use and discoverability.",
+        "recommendation": "Implement a search feature and add visible navigation links to improve user navigation and content discovery.",
+        "priority": "medium"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving API Layer Hub Documentation for Better Developer Experience",
+      "body": "I reviewed the API Layer Hub documentation and noticed the clear explanation of the unified API design and authentication model, which is a solid foundation. However, the absence of code examples and detailed endpoint documentation might make it challenging for developers to implement the APIs effectively. Enhancing these areas could significantly improve usability and adoption."
+    },
+    "lead_score": 65,
+    "lead_score_reason": "50 base; +10 docs scored 6/10; +5 team inbox or phone; +10 developer product, docs drive adoption; -10 very small docs site"
+  }
+}

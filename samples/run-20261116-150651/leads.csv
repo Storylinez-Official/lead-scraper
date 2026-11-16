@@ -1,0 +1,2 @@
+name,website,source,status,stage,skip_reason,business_type,doc_url,doc_discovery_score,emails,phone_numbers,decision_makers,intent_signals,doc_overall,doc_quality,doc_completeness,doc_usability,lead_score,outreach_subject,report_file
+repromptai.com,https://repromptai.com/,manual,qualified,generate_report,,B2B SaaS,https://docs.repromptai.com/guides/quickstart,7,privacy@repromptai.com,,Jordan Lee (CEO); Kendall Price (CTO),,8,8,7,8,25,Improving API reference and SDK docs for repromptai.com,reports/repromptai.com.md

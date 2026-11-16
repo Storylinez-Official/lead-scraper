@@ -1,0 +1,296 @@
+{
+  "lead": {
+    "name": "repromptai.com",
+    "website": "https://repromptai.com/",
+    "source": "manual",
+    "source_url": null,
+    "description": "",
+    "extra": {}
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 6.27,
+    "find_documentation": 9.14,
+    "collect_contacts": 9.14,
+    "purify_contacts": 3.72,
+    "research_company": 4.25,
+    "analyze_documentation": 4.3,
+    "generate_report": 5.48
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://repromptai.com/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "B2B SaaS",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "RepromptAI offers AI-powered business data verification and enrichment services with APIs and a platform, indicating the need for developer and user documentation. The presence of API references and a live app suggests the owners would care about documentation quality."
+  },
+  "docs": {
+    "doc_url": "https://docs.repromptai.com/guides/quickstart",
+    "score": 7,
+    "signals": [
+      "+2 code_blocks (6)",
+      "+1 many_code_blocks",
+      "+1 doc_headings (quickstart)",
+      "+2 doc_url",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.repromptai.com/guides/quickstart",
+        "reason": "common docs subdomain",
+        "score": 7,
+        "signals": [
+          "+2 code_blocks (6)",
+          "+1 many_code_blocks",
+          "+1 doc_headings (quickstart)",
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://repromptai.com/",
+        "reason": "homepage",
+        "score": 0,
+        "signals": [],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "privacy@repromptai.com": [
+        "https://repromptai.com/legal"
+      ]
+    },
+    "phones": {
+      "10012 2018-03-15": [
+        "https://repromptai.com/"
+      ],
+      "33133 2020-01-10": [
+        "https://repromptai.com/"
+      ],
+      "78701 2017-11-08": [
+        "https://repromptai.com/"
+      ],
+      "94103 2015-07-22": [
+        "https://repromptai.com/"
+      ]
+    },
+    "pages_visited": [
+      "https://repromptai.com/",
+      "https://repromptai.com/about",
+      "https://repromptai.com/legal",
+      "https://docs.repromptai.com/guides/quickstart",
+      "https://repromptai.com/blog",
+      "https://app.repromptai.com/sign-up",
+      "https://repromptai.com/datasets/business-data",
+      "https://docs.repromptai.com/guides/quickstart",
+      "https://repromptai.com/blog/search-and-ask-api",
+      "https://repromptai.com/blog/web-agents-200m-poi-data",
+      "https://repromptai.com/blog/last-mile-delivery-entrances-autonomous",
+      "https://repromptai.com/products/fraud-kyb",
+      "https://app.repromptai.com/login",
+      "https://repromptai.com/products/location-data",
+      "https://repromptai.com/products/enrichment",
+      "https://repromptai.com/products/last-mile",
+      "https://repromptai.com/products/site-intelligence",
+      "https://repromptai.com/products/custom-datasets",
+      "https://docs.repromptai.com/api-reference",
+      "https://docs.repromptai.com/api-reference/enrich-a-single-place-synchronously",
+      "https://docs.repromptai.com/guides/search-and-ask",
+      "https://docs.repromptai.com/api-reference/search-&-answers/search-the-web",
+      "https://docs.repromptai.com/api-reference/search-&-answers/get-a-fast-source-backed-answer",
+      "https://docs.repromptai.com/guides/csv-upload",
+      "https://docs.repromptai.com/guides/batch-processing",
+      "https://docs.repromptai.com/guides/csv-export",
+      "https://docs.repromptai.com/guides/troubleshooting-40x",
+      "https://docs.repromptai.com/guides/open-closed",
+      "https://docs.repromptai.com/guides/monthly-refresh",
+      "https://docs.repromptai.com/guides/place-job-results"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "privacy@repromptai.com"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "privacy@repromptai.com"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "research": {
+    "people": [
+      {
+        "name": "Jordan Lee",
+        "role": "CEO",
+        "source_url": "https://repromptai.com/about"
+      },
+      {
+        "name": "Kendall Price",
+        "role": "CTO",
+        "source_url": "https://repromptai.com/about"
+      }
+    ],
+    "signals": [],
+    "recipient": {
+      "name": "Kendall Price",
+      "role": "CTO",
+      "source_url": "https://repromptai.com/about"
+    },
+    "rejected_by_guard": [],
+    "error": "",
+    "people_pages": [
+      "https://repromptai.com/about"
+    ],
+    "changelog_url": "https://docs.repromptai.com/changelog",
+    "stale_signals": [
+      "2025-10-01 Major API Version 2.0 Release",
+      "2025-09-01 Legacy API Improvements",
+      "2025-08-01 Initial API Release"
+    ]
+  },
+  "doc_metrics": {
+    "pages_sampled": 8,
+    "doc_nav_links": 8,
+    "code_blocks_total": 27,
+    "avg_words_per_page": 643,
+    "code_languages": [],
+    "has_search": true,
+    "signals_seen": [
+      "code_blocks",
+      "doc_headings",
+      "doc_platform",
+      "doc_url",
+      "http_endpoints",
+      "inline_code",
+      "many_code_blocks",
+      "sidebar_toc"
+    ],
+    "discovery_score": 7,
+    "discovery_signals": [
+      "+2 code_blocks (6)",
+      "+1 many_code_blocks",
+      "+1 doc_headings (quickstart)",
+      "+2 doc_url",
+      "+1 sidebar_toc"
+    ],
+    "changelog_url": "https://docs.repromptai.com/changelog"
+  },
+  "doc_pages": [
+    {
+      "url": "https://docs.repromptai.com/guides/quickstart",
+      "title": "Quickstart | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/search-and-ask",
+      "title": "Search and Ask | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/csv-upload",
+      "title": "Upload Large Files | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/batch-processing",
+      "title": "Batch Processing | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/csv-export",
+      "title": "CSV Export | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/troubleshooting-40x",
+      "title": "Troubleshooting Authentication & 40x Errors | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/open-closed",
+      "title": "Place Status - Open/Closed | Reprompt"
+    },
+    {
+      "url": "https://docs.repromptai.com/guides/monthly-refresh",
+      "title": "Monthly Refresh | Reprompt"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "API reference and user guide",
+    "quality": {
+      "score": 8,
+      "justification": "The documentation is clear, well-written, and includes numerous concrete examples with cURL, Python, and JavaScript code snippets. The Quickstart guide provides step-by-step instructions with sample requests and responses, which aids understanding. Error handling and troubleshooting sections are detailed and practical."
+    },
+    "completeness": {
+      "score": 7,
+      "justification": "The docs cover key areas such as quickstart, batch processing, CSV upload and export, error troubleshooting, and place status enrichment. However, some advanced topics like detailed attribute schemas or SDK usage are missing or only lightly referenced. The sample does not show a full API reference or changelog content, though a changelog URL is provided."
+    },
+    "usability": {
+      "score": 8,
+      "justification": "The documentation features a sidebar TOC, search functionality, and consistent URL structure, aiding navigation and discoverability. The presence of many code blocks and headings improves scanning. However, some pages are quite dense and could benefit from more visual aids or summaries to enhance quick comprehension."
+    },
+    "overall_score": 8,
+    "strengths": [
+      "Clear and thorough quickstart with multiple code examples",
+      "Comprehensive batch processing and CSV upload/export guides",
+      "Detailed troubleshooting guide for common 40x errors",
+      "Good navigation with sidebar TOC and search functionality"
+    ],
+    "weaknesses": [
+      "Lacks detailed attribute schema and advanced usage examples",
+      "No SDK or client library documentation visible in sample",
+      "Some pages are text-heavy without visual aids or diagrams",
+      "Limited coverage of error codes beyond 40x errors"
+    ],
+    "missing_sections": [
+      "Full API reference with all endpoints and parameters",
+      "SDK or client library usage guides",
+      "Detailed attribute schema documentation",
+      "Examples of integration in real-world applications or workflows"
+    ]
+  },
+  "report": {
+    "executive_summary": "The documentation for repromptai.com is clear and well-structured, featuring a thorough quickstart guide with multiple code examples and detailed troubleshooting for common errors. Navigation is supported by a sidebar TOC and search functionality, enhancing usability. However, the docs lack a full API reference, detailed attribute schemas, SDK or client library guides, and more visual aids to break up dense text. Including these would better support advanced users and improve overall comprehension.",
+    "improvements": [
+      {
+        "area": "API Reference",
+        "issue": "No full API reference with all endpoints and parameters is provided, limiting developers' ability to explore the API comprehensively.",
+        "recommendation": "Add a complete API reference section detailing all endpoints, parameters, request and response schemas, and examples.",
+        "priority": "high"
+      },
+      {
+        "area": "SDK and Client Libraries",
+        "issue": "There is no documentation or guides for SDK or client library usage, which could hinder adoption by developers preferring these tools.",
+        "recommendation": "Develop and document SDKs or client libraries with usage examples to facilitate easier integration.",
+        "priority": "high"
+      },
+      {
+        "area": "Attribute Schema Documentation",
+        "issue": "Detailed attribute schemas are missing or only lightly referenced, making it difficult for users to understand data structures fully.",
+        "recommendation": "Include comprehensive attribute schema documentation with descriptions and examples.",
+        "priority": "medium"
+      },
+      {
+        "area": "Visual Aids and Summaries",
+        "issue": "Some documentation pages are text-heavy and lack visual aids or summaries, which can impede quick comprehension and scanning.",
+        "recommendation": "Incorporate diagrams, flowcharts, and summary boxes to enhance readability and user engagement.",
+        "priority": "medium"
+      },
+      {
+        "area": "Error Code Coverage",
+        "issue": "Error handling documentation focuses mainly on 40x errors, with limited coverage of other error codes.",
+        "recommendation": "Expand error handling sections to cover a broader range of error codes and scenarios.",
+        "priority": "low"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving API reference and SDK docs for repromptai.com",
+      "body": "Hi Kendall,\nI noticed that repromptai.com's docs have a strong quickstart guide with many code examples and a helpful troubleshooting section for 40x errors. However, the absence of a full API reference and SDK usage guides might make it harder for developers to fully leverage your platform. Adding these could significantly enhance developer experience and adoption. Let me know if you'd like to discuss ways to strengthen your documentation further."
+    },
+    "lead_score": 25,
+    "lead_score_reason": "50 base; -15 docs scored 8/10; -15 only security/legal-type addresses; +5 named decision-maker (Kendall Price, CTO)"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lead": {
+    "name": "Freebuff",
+    "website": "https://freebuff.com/",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/freebuff-2",
+    "description": "",
+    "extra": {}
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 4.38,
+    "find_documentation": 12.62
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://freebuff.com/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "developer API platform with AI coding assistant",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.9,
+    "reasoning": "The site offers a coding agent with CLI tools, integrations with developer platforms (GitHub, Stripe, etc.), and downloadable clients, indicating a technical product that requires developer documentation such as API references, SDK guides, and user manuals. The complexity and developer focus suggest the owners would care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 4 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 4,
+    "signals": [
+      "+1 inline_code (16)",
+      "+2 install_command",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://freebuff.com/",
+        "reason": "homepage",
+        "score": 4,
+        "signals": [
+          "+1 inline_code (16)",
+          "+2 install_command",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "lead": {
+    "name": "Graphify-Labs/graphify",
+    "website": "https://www.graphify.com/",
+    "source": "github-developer-tools",
+    "source_url": "https://github.com/Graphify-Labs/graphify",
+    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "extra": {
+      "stars": 148617,
+      "language": "Python",
+      "repo": "https://github.com/Graphify-Labs/graphify",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphify",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ]
+    }
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 5.27,
+    "find_documentation": 2.2,
+    "collect_contacts": 48.94,
+    "purify_contacts": 3.45,
+    "analyze_documentation": 8.23,
+    "generate_report": 4.69
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://graphify.com/",
+  "header_doc_links": [
+    {
+      "url": "https://docs.graphify.com/changelog/highlights",
+      "text": "Changelog"
+    },
+    {
+      "url": "https://docs.graphify.com/changelog/console",
+      "text": "Nov 9, 2026 Install Graphify in Claude from setup"
+    },
+    {
+      "url": "https://docs.graphify.com/changelog/platform",
+      "text": "Nov 8, 2026 Finish Graphify setup from the connect window"
+    },
+    {
+      "url": "https://docs.graphify.com/",
+      "text": "Docs"
+    },
+    {
+      "url": "https://docs.graphify.com/installation",
+      "text": "Install"
+    },
+    {
+      "url": "https://docs.graphify.com/guides/first-graph",
+      "text": "Tutorial"
+    },
+    {
+      "url": "https://docs.graphify.com/reference/overview",
+      "text": "CLI reference"
+    }
+  ],
+  "assessment": {
+    "business_type": "developer API",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The website is for Graphify, a developer-focused product that creates a queryable knowledge graph from codebases and integrates with developer tools and assistants. It has extensive documentation including installation guides, CLI references, tutorials, and changelogs, indicating a strong need for high-quality technical documentation. The product targets developers and enterprises, making them likely to care about documentation quality."
+  },
+  "docs": {
+    "doc_url": "https://docs.graphify.com/open-source/cli-quickstart",
+    "score": 12,
+    "signals": [
+      "+2 code_blocks (12)",
+      "+1 many_code_blocks",
+      "+2 install_command",
+      "+1 doc_headings (configuration)",
+      "+2 doc_url",
+      "+3 doc_platform (mintlify)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.graphify.com/",
+        "reason": "header link 'Docs'",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (mintlify)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.graphify.com/open-source/cli-quickstart",
+        "reason": "header link 'Tutorial'",
+        "score": 12,
+        "signals": [
+          "+2 code_blocks (12)",
+          "+1 many_code_blocks",
+          "+2 install_command",
+          "+1 doc_headings (configuration)",
+          "+2 doc_url",
+          "+3 doc_platform (mintlify)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://graphify.com/",
+        "reason": "homepage",
+        "score": 0,
+        "signals": [],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "founders@graphify.com": [
+        "https://graphify.com/contact"
+      ],
+      "careers@graphify.com": [
+        "https://graphify.com/careers"
+      ],
+      "support@graphify.com": [
+        "https://graphify.com/legal/plugins/jetbrains"
+      ]
+    },
+    "phones": {},
+    "pages_visited": [
+      "https://graphify.com/",
+      "https://graphify.com/contact",
+      "https://graphify.com/about",
+      "https://graphify.com/security",
+      "https://graphify.com/careers",
+      "https://graphify.com/privacy",
+      "https://graphify.com/terms",
+      "https://graphify.com/legal/plugins",
+      "https://graphify.com/legal/plugins/jetbrains",
+      "https://docs.graphify.com/open-source/cli-quickstart",
+      "https://docs.graphify.com/platform/support/pricing",
+      "https://docs.graphify.com/concepts/ask-about-your-code",
+      "https://docs.graphify.com/platform/support/faqs",
+      "https://docs.graphify.com/platform/support/troubleshooting",
+      "https://docs.graphify.com/platform/support/rate-limits",
+      "https://docs.graphify.com/platform/support/security",
+      "https://docs.graphify.com/platform/support/move-from-local",
+      "https://graphify.com/enterprise",
+      "https://graphify.com/pricing",
+      "https://app.graphify.com/login",
+      "https://app.graphify.com/signup",
+      "https://docs.graphify.com/integrations/overview",
+      "https://docs.graphify.com/",
+      "https://docs.graphify.com/cookbooks/shared-team-graph",
+      "https://docs.graphify.com/cookbooks/review-as-a-team",
+      "https://docs.graphify.com/cookbooks/agent-team-one-graph",
+      "https://graphify.com/vs",
+      "https://trust.graphify.com/",
+      "https://graphify.com/blog/categories/product",
+      "https://graphify.com/blog/first-yc-company-100k-stars"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "founders@graphify.com",
+      "careers@graphify.com",
+      "support@graphify.com"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "founders@graphify.com",
+      "careers@graphify.com",
+      "support@graphify.com"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "doc_metrics": {
+    "pages_sampled": 8,
+    "doc_nav_links": 24,
+    "code_blocks_total": 62,
+    "avg_words_per_page": 617,
+    "code_languages": [],
+    "has_search": true,
+    "signals_seen": [
+      "code_blocks",
+      "doc_headings",
+      "doc_platform",
+      "doc_url",
+      "inline_code",
+      "install_command",
+      "many_code_blocks",
+      "sidebar_toc"
+    ],
+    "discovery_score": 12,
+    "discovery_signals": [
+      "+2 code_blocks (12)",
+      "+1 many_code_blocks",
+      "+2 install_command",
+      "+1 doc_headings (configuration)",
+      "+2 doc_url",
+      "+3 doc_platform (mintlify)",
+      "+1 sidebar_toc"
+    ]
+  },
+  "doc_pages": [
+    {
+      "url": "https://docs.graphify.com/open-source/cli-quickstart",
+      "title": "CLI quickstart: build and query a code graph - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/overview",
+      "title": "Graphify CLI: open-source code knowledge graph - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/quickstart",
+      "title": "Quickstart: map a repository with the skill - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/installation",
+      "title": "Install Graphify CLI with uv or pipx - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/mcp-server",
+      "title": "MCP server quickstart: serve your graph - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/self-host",
+      "title": "Self-host the Graphify MCP server with Docker - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/vibe-coding",
+      "title": "Vibe coding with Graphify CLI - Graphify"
+    },
+    {
+      "url": "https://docs.graphify.com/open-source/local-development",
+      "title": "Run Graphify locally - Graphify"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "developer API guide with CLI and server setup",
+    "quality": {
+      "score": 8,
+      "justification": "The documentation is generally clear with well-structured step-by-step instructions, concrete CLI examples, and explanations of commands and flags. The CLI quickstart and MCP server quickstart pages provide detailed command usage and expected outputs. However, some commands and concepts (e.g., 'graphify cluster-only', 'god-nodes') could benefit from more detailed explanations or examples for novice users."
+    },
+    "completeness": {
+      "score": 7,
+      "justification": "The sample covers installation, CLI usage, skill integration, MCP server setup, Docker deployment, and advanced usage like vibe coding. However, it lacks explicit error handling sections beyond brief troubleshooting tips, no changelog or versioning info is seen, and no comprehensive API reference or detailed explanation of graph internals is present."
+    },
+    "usability": {
+      "score": 8,
+      "justification": "The docs have a sidebar TOC, search functionality, and consistent navigation links. The pages are well segmented with headings and code blocks. The presence of 'What’s next' sections guides users to related topics. Some pages could improve discoverability of advanced features by linking more explicitly from quickstart pages."
+    },
+    "overall_score": 8,
+    "strengths": [
+      "Clear step-by-step CLI instructions with examples",
+      "Good coverage of installation and setup workflows",
+      "Includes troubleshooting tips and next steps guidance",
+      "Well-structured navigation and search support"
+    ],
+    "weaknesses": [
+      "Limited explanation of some commands and flags for beginners",
+      "No comprehensive API reference or detailed graph data model",
+      "Sparse error handling and recovery guidance",
+      "No changelog or version history visible"
+    ],
+    "missing_sections": [
+      "Comprehensive API reference",
+      "Detailed error codes and troubleshooting guide",
+      "Changelog or release notes",
+      "In-depth explanation of graph data structures and internals"
+    ]
+  },
+  "report": {
+    "executive_summary": "The Graphify documentation provides clear, step-by-step CLI instructions and thorough installation and setup workflows, supported by good navigation and search features. However, it lacks detailed explanations for some commands and concepts, comprehensive API references, and robust error handling guidance. Adding these elements would significantly enhance usability, especially for novice users and developers seeking deeper technical insights.",
+    "improvements": [
+      {
+        "area": "Command explanations",
+        "issue": "Some commands and concepts like 'graphify cluster-only' and 'god-nodes' are insufficiently explained for beginners.",
+        "recommendation": "Add detailed descriptions and practical examples for these commands to improve understanding and usability for new users.",
+        "priority": "high"
+      },
+      {
+        "area": "API reference",
+        "issue": "No comprehensive API reference or detailed explanation of the graph data model is present.",
+        "recommendation": "Develop a complete API reference section and include in-depth documentation on graph internals and data structures to support advanced users and integration efforts.",
+        "priority": "high"
+      },
+      {
+        "area": "Error handling",
+        "issue": "Sparse error handling and recovery guidance beyond brief troubleshooting tips.",
+        "recommendation": "Introduce a dedicated error codes and troubleshooting guide section to help users diagnose and resolve issues more effectively.",
+        "priority": "medium"
+      },
+      {
+        "area": "Changelog and versioning",
+        "issue": "No changelog or release notes are visible in the documentation.",
+        "recommendation": "Add a changelog or release notes section to keep users informed about updates, fixes, and new features.",
+        "priority": "medium"
+      },
+      {
+        "area": "Feature discoverability",
+        "issue": "Advanced features are not always easily discoverable from quickstart pages.",
+        "recommendation": "Enhance linking from quickstart and introductory pages to advanced topics to improve feature discoverability.",
+        "priority": "low"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving clarity and depth in Graphify docs",
+      "body": "I reviewed the Graphify documentation and noticed that while the CLI quickstart is clear and well-structured, some commands like 'graphify cluster-only' and concepts such as 'god-nodes' could use more detailed explanations or examples. Also, the docs currently lack a comprehensive API reference and detailed error handling guidance, which might be valuable for developers integrating deeply with your platform. If you're exploring ways to enhance these areas, I'd be interested in sharing some insights."
+    },
+    "lead_score": 50,
+    "lead_score_reason": "50 base; -15 docs scored 8/10; +5 team inbox or phone; +10 developer product, docs drive adoption"
+  }
+}

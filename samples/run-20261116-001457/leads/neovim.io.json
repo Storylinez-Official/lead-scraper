@@ -1,0 +1,74 @@
+{
+  "lead": {
+    "name": "neovim/neovim",
+    "website": "https://neovim.io/",
+    "source": "github-api",
+    "source_url": "https://github.com/neovim/neovim",
+    "description": "Vim-fork focused on extensibility and usability",
+    "extra": {
+      "stars": 103644,
+      "language": "Vim Script",
+      "repo": "https://github.com/neovim/neovim",
+      "topics": [
+        "api",
+        "c",
+        "lua",
+        "neovim",
+        "nvim",
+        "text-editor",
+        "vim"
+      ]
+    }
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 5.33,
+    "find_documentation": 5.19
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://neovim.io/",
+  "header_doc_links": [
+    {
+      "url": "https://neovim.io/doc/",
+      "text": "Documentation"
+    }
+  ],
+  "assessment": {
+    "business_type": "open-source developer tool",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "Neovim is a hyperextensible Vim-based text editor with a dedicated documentation section and developer-focused features like an API, Lua plugins, and RPC. This indicates it has extensive technical documentation and its maintainers would care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 5 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 5,
+    "signals": [
+      "+2 doc_url",
+      "+3 doc_platform (docsearch)"
+    ],
+    "candidates": [
+      {
+        "url": "https://neovim.io/doc/",
+        "reason": "header link 'Documentation'",
+        "score": 5,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (docsearch)"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://neovim.io/",
+        "reason": "homepage",
+        "score": 4,
+        "signals": [
+          "+1 inline_code (7)",
+          "+3 doc_platform (docsearch)"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

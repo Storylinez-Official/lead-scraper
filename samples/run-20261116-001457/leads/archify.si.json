@@ -1,0 +1,102 @@
+{
+  "lead": {
+    "name": "tt-a1i/archify",
+    "website": "https://archify.si/",
+    "source": "github-developer-tools",
+    "source_url": "https://github.com/tt-a1i/archify",
+    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+    "extra": {
+      "stars": 96711,
+      "language": "JavaScript",
+      "repo": "https://github.com/tt-a1i/archify",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "coding-agents",
+        "deepseek-harness",
+        "developer-tools",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "flowchart",
+        "llm",
+        "mermaid",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "visualization"
+      ]
+    }
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 4.25,
+    "find_documentation": 97.77
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://archify.si/",
+  "header_doc_links": [
+    {
+      "url": "https://archify.si/guide",
+      "text": "Guide"
+    },
+    {
+      "url": "https://archify.si/agent-diagrams",
+      "text": "Learn agent diagramming →"
+    }
+  ],
+  "assessment": {
+    "business_type": "developer API",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The website is for Archify, an AI agent skill that generates interactive diagrams and one-page answers from code or descriptions. It includes a Guide, GitHub repository, and detailed usage instructions, indicating the presence of developer documentation and user guides. The product is technical and developer-focused, making its owners likely to care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 4 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 4,
+    "signals": [
+      "+2 code_blocks (3)",
+      "+1 many_code_blocks",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://archify.si/guide",
+        "reason": "header link 'Guide'",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://archify.si/agent-diagrams",
+        "reason": "header link 'Learn agent diagramming →'",
+        "score": 4,
+        "signals": [
+          "+2 code_blocks (3)",
+          "+1 many_code_blocks",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://archify.si/",
+        "reason": "homepage",
+        "score": 1,
+        "signals": [
+          "+1 inline_code (10)"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

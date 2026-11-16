@@ -1,0 +1,10 @@
+name,website,source,status,stage,skip_reason,business_type,doc_url,doc_discovery_score,emails,phone_numbers,doc_overall,doc_quality,doc_completeness,doc_usability,lead_score,outreach_subject,report_file
+public-apis/public-apis,https://apilayer.com/,github-api,qualified,generate_report,,API marketplace,https://docs.apilayer.com/apilayer/docs/api-layer-hub,7,customercare@apilayer.com; support@apilayer.com,,6,7,5,6,65,Improving API Layer Hub Documentation for Better Developer Experience,reports/apilayer.com.md
+Graphify-Labs/graphify,https://www.graphify.com/,github-developer-tools,qualified,generate_report,,developer API,https://docs.graphify.com/open-source/cli-quickstart,12,founders@graphify.com; careers@graphify.com; support@graphify.com,,8,8,7,8,50,Improving clarity and depth in Graphify docs,reports/graphify.com.md
+Boost.space,https://boost.space/,producthunt-developer-tools,skipped,collect_contacts,no contact information found (30 pages crawled),B2B SaaS,https://docs.boost.space/,6,,,,,,,,,
+DietrichGebert/ponytail,https://ponytail.dev/,github-developer-tools,skipped,find_documentation,no documentation found (best score 5 < 6),developer tool / AI coding assistant,,5,,,,,,,,,
+Freebuff,https://freebuff.com/,producthunt-developer-tools,skipped,find_documentation,no documentation found (best score 4 < 6),developer API platform with AI coding assistant,,4,,,,,,,,,
+Nexus,https://trynexus.io/,producthunt-developer-tools,skipped,collect_contacts,no contact information found (21 pages crawled),B2B SaaS,https://docs.trynexus.io/,10,,,,,,,,,
+affaan-m/ECC,https://ecc.tools/,github-developer-tools,skipped,find_documentation,no documentation found (best score 2 < 6),developer API / SDK toolkit,,2,,,,,,,,,
+fastapi/fastapi,https://fastapi.tiangolo.com/,github-api,skipped,collect_contacts,no contact information found (30 pages crawled),developer API framework,https://fastapi.tiangolo.com/,11,,,,,,,,,
+neovim/neovim,https://neovim.io/,github-api,skipped,find_documentation,no documentation found (best score 5 < 6),open-source developer tool,,5,,,,,,,,,

@@ -1,0 +1,372 @@
+{
+  "lead": {
+    "name": "hoppscotch/hoppscotch",
+    "website": "https://hoppscotch.io/",
+    "source": "github-api",
+    "source_url": "https://github.com/hoppscotch/hoppscotch",
+    "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+    "extra": {
+      "stars": 80819,
+      "language": "TypeScript",
+      "repo": "https://github.com/hoppscotch/hoppscotch",
+      "topics": [
+        "api",
+        "api-client",
+        "api-rest",
+        "api-testing",
+        "developer-tools",
+        "graphql",
+        "http",
+        "http-client",
+        "pwa",
+        "rest",
+        "rest-api",
+        "spa",
+        "testing",
+        "testing-tools",
+        "tools",
+        "vue",
+        "vuejs",
+        "websocket"
+      ]
+    }
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 13.78,
+    "find_documentation": 29.69,
+    "collect_contacts": 9.94,
+    "purify_contacts": 3.03,
+    "analyze_documentation": 4.95,
+    "generate_report": 3.42
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://hoppscotch.io/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "developer API tool",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "Hoppscotch is an open-source API development ecosystem similar to Postman, which inherently requires developer documentation such as API references, SDK guides, and user manuals. The presence of scripting features and environment variables further indicates the need for quality technical documentation, making it worthwhile to pursue."
+  },
+  "docs": {
+    "doc_url": "https://docs.hoppscotch.io/",
+    "score": 7,
+    "signals": [
+      "+1 doc_headings (getting started)",
+      "+2 doc_url",
+      "+3 doc_platform (mintlify)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://hoppscotch.io/docs",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/documentation",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/developers",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/api",
+        "reason": "common docs path",
+        "score": 1,
+        "signals": [
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/reference",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/guide",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/help",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.hoppscotch.io/",
+        "reason": "common docs subdomain",
+        "score": 7,
+        "signals": [
+          "+1 doc_headings (getting started)",
+          "+2 doc_url",
+          "+3 doc_platform (mintlify)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://developer.hoppscotch.io/",
+        "reason": "common docs subdomain",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://developers.hoppscotch.io/",
+        "reason": "common docs subdomain",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://help.hoppscotch.io/",
+        "reason": "common docs subdomain",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://hoppscotch.io/",
+        "reason": "homepage",
+        "score": 1,
+        "signals": [
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "support@hoppscotch.io": [
+        "https://docs.hoppscotch.io/support/solutions/experts",
+        "https://docs.hoppscotch.io/support/code-of-conduct",
+        "https://docs.hoppscotch.io/support/security-policy"
+      ],
+      "person10@reqres.in": [
+        "https://docs.hoppscotch.io/documentation/getting-started/rest/pre-request-scripts"
+      ],
+      "person3@reqres.in": [
+        "https://docs.hoppscotch.io/documentation/getting-started/rest/tests"
+      ]
+    },
+    "phones": {},
+    "pages_visited": [
+      "https://hoppscotch.io/",
+      "https://hoppscotch.io/contact",
+      "https://hoppscotch.io/contact-us",
+      "https://hoppscotch.io/about",
+      "https://hoppscotch.io/about-us",
+      "https://hoppscotch.io/company",
+      "https://hoppscotch.io/team",
+      "https://hoppscotch.io/imprint",
+      "https://hoppscotch.io/impressum",
+      "https://hoppscotch.io/legal",
+      "https://hoppscotch.io/support",
+      "https://docs.hoppscotch.io/",
+      "https://docs.hoppscotch.io/support/getting-started/introduction",
+      "https://docs.hoppscotch.io/support/getting-started/faq",
+      "https://docs.hoppscotch.io/support/getting-started/contact",
+      "https://docs.hoppscotch.io/support/solutions/community",
+      "https://docs.hoppscotch.io/support/solutions/experts",
+      "https://docs.hoppscotch.io/support/license",
+      "https://docs.hoppscotch.io/support/code-of-conduct",
+      "https://docs.hoppscotch.io/support/security-policy",
+      "https://docs.hoppscotch.io/support/privacy",
+      "https://docs.hoppscotch.io/support/terms",
+      "https://hoppscotch.io/graphql",
+      "https://hoppscotch.io/realtime",
+      "https://hoppscotch.io/settings",
+      "https://docs.hoppscotch.io/documentation/features/rest-api-testing",
+      "https://docs.hoppscotch.io/documentation/getting-started/rest/uploading-data",
+      "https://docs.hoppscotch.io/documentation/features/authorization",
+      "https://docs.hoppscotch.io/documentation/getting-started/rest/pre-request-scripts",
+      "https://docs.hoppscotch.io/documentation/getting-started/rest/tests"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "support@hoppscotch.io"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "support@hoppscotch.io"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "doc_metrics": {
+    "pages_sampled": 8,
+    "doc_nav_links": 24,
+    "code_blocks_total": 0,
+    "avg_words_per_page": 186,
+    "code_languages": [],
+    "has_search": true,
+    "signals_seen": [
+      "doc_headings",
+      "doc_platform",
+      "doc_url",
+      "inline_code",
+      "sidebar_toc"
+    ],
+    "discovery_score": 7,
+    "discovery_signals": [
+      "+1 doc_headings (getting started)",
+      "+2 doc_url",
+      "+3 doc_platform (mintlify)",
+      "+1 sidebar_toc"
+    ]
+  },
+  "doc_pages": [
+    {
+      "url": "https://docs.hoppscotch.io/",
+      "title": "Hoppscotch Documentation - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/documentation/getting-started/introduction",
+      "title": "Introduction to Hoppscotch - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/guides/getting-started/introduction",
+      "title": "Introduction to guides - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/support/getting-started/introduction",
+      "title": "Introduction to support - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/documentation/getting-started/quick-start",
+      "title": "Quick start - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/documentation/getting-started/clients",
+      "title": "Hoppscotch Clients - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/documentation/getting-started/setup",
+      "title": "Setup Hoppscotch - Hoppscotch Documentation"
+    },
+    {
+      "url": "https://docs.hoppscotch.io/documentation/getting-started/troubleshooting",
+      "title": "Troubleshooting - Hoppscotch Documentation"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "user manual",
+    "quality": {
+      "score": 7,
+      "justification": "The documentation is generally clear and well-written with concise descriptions and structured sections, but it lacks code examples or detailed walkthroughs, which reduces clarity for practical usage."
+    },
+    "completeness": {
+      "score": 6,
+      "justification": "The docs cover introduction, quick start, clients, setup, and troubleshooting, but lack detailed API references, error codes, and comprehensive examples or tutorials."
+    },
+    "usability": {
+      "score": 7,
+      "justification": "The documentation has a sidebar TOC, search functionality, and clear navigation links, but the average page length is short and some pages lack depth, which may hinder discoverability of advanced topics."
+    },
+    "overall_score": 7,
+    "strengths": [
+      "Clear and concise introductory and quick start guides",
+      "Good navigation with sidebar TOC and search",
+      "Coverage of multiple platforms (web, desktop, CLI) and deployment options"
+    ],
+    "weaknesses": [
+      "No code blocks or examples in sampled pages to illustrate usage",
+      "Lack of detailed API reference or error handling documentation",
+      "Some pages are very brief and lack depth (e.g., Introduction to guides, Introduction to support)"
+    ],
+    "missing_sections": [
+      "API reference documentation",
+      "Detailed usage examples and tutorials",
+      "Error codes and handling guide",
+      "Changelog or release notes"
+    ]
+  },
+  "report": {
+    "executive_summary": "The documentation for Hoppscotch is clear and well-structured, providing concise introductory and quick start guides with good navigation features like a sidebar TOC and search functionality. However, it lacks practical code examples, detailed API references, error handling information, and comprehensive tutorials, which limits its usefulness for developers seeking in-depth guidance or troubleshooting support.",
+    "improvements": [
+      {
+        "area": "Code Examples and Tutorials",
+        "issue": "No code blocks or detailed walkthroughs are present to illustrate practical usage.",
+        "recommendation": "Add comprehensive code examples and step-by-step tutorials demonstrating common use cases and workflows.",
+        "priority": "high"
+      },
+      {
+        "area": "API Reference Documentation",
+        "issue": "The documentation lacks a detailed API reference section.",
+        "recommendation": "Develop a complete API reference with descriptions of endpoints, parameters, and expected responses.",
+        "priority": "high"
+      },
+      {
+        "area": "Error Handling and Codes",
+        "issue": "There is no documentation on error codes or how to handle errors effectively.",
+        "recommendation": "Include a dedicated section explaining error codes, their meanings, and recommended handling strategies.",
+        "priority": "medium"
+      },
+      {
+        "area": "Content Depth and Completeness",
+        "issue": "Some pages are very brief and lack depth, such as the Introduction to guides and support sections.",
+        "recommendation": "Expand these sections with more detailed explanations and practical information to enhance user understanding.",
+        "priority": "medium"
+      },
+      {
+        "area": "Changelog or Release Notes",
+        "issue": "No changelog or release notes are available to track updates and changes.",
+        "recommendation": "Add a changelog or release notes section to keep users informed about new features, fixes, and improvements.",
+        "priority": "low"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving Practical Guidance in Hoppscotch Docs",
+      "body": "I noticed that the Hoppscotch documentation offers clear quick start guides and good navigation, which is great for new users. However, the absence of code examples and detailed API references might make it harder for developers to fully leverage the tool. Adding practical examples and a comprehensive API reference could significantly enhance usability and developer experience."
+    },
+    "lead_score": 65,
+    "lead_score_reason": "50 base; +0 docs scored 7/10; +5 team inbox or phone; +10 developer product, docs drive adoption"
+  }
+}

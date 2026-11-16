@@ -1,0 +1,44 @@
+{
+  "lead": {
+    "name": "Perit Marketplace",
+    "website": "https://perit.ai/marketplace",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/perit-marketplace",
+    "description": "",
+    "extra": {}
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 4.69,
+    "find_documentation": 9.25
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://perit.ai/marketplace",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "data marketplace for AI/ML datasets",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.9,
+    "reasoning": "The site offers a complex data marketplace with multiple dataset categories, licensing, formats, and compliance details, which strongly implies the need for detailed documentation such as user manuals, licensing guides, and data format specifications. The technical nature and enterprise focus suggest the owners would care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 1 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 1,
+    "signals": [
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://perit.ai/marketplace",
+        "reason": "homepage",
+        "score": 1,
+        "signals": [
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

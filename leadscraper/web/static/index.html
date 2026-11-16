@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LeadScraper</title>
+  <meta name="description" content="Live documentation-quality lead intelligence.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2315120E'/%3E%3Cpath d='M9 8h10l4 4v12H9z' fill='none' stroke='%23F2EEE3' stroke-width='2'/%3E%3Ccircle cx='20' cy='21' r='3.2' fill='%23E5461A'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="LeadScraper home">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="1" y="1" width="38" height="38" rx="10" class="mark-bg"/>
+        <path d="M11 9h12l6 6v16H11z" class="mark-page"/>
+        <path d="M23 9v6h6" class="mark-page"/>
+        <path d="M14.5 19h7M14.5 23h5" class="mark-line"/>
+        <circle cx="25" cy="27" r="4.2" class="mark-dot"/>
+      </svg>
+      <span class="wordmark">Lead<em>Scraper</em></span>
+    </a>
+    <span class="tagline mono">Documentation&nbsp;lead&nbsp;intelligence</span>
+    <div class="masthead-right">
+      <label class="history">
+        <span class="mono label">Run</span>
+        <select id="historySelect" aria-label="Choose a run to view"></select>
+      </label>
+      <span class="chip mono" id="modelChip" title="LLM used for every AI step">model</span>
+      <span class="live mono" id="liveBadge" data-state="idle"><i></i><span>Idle</span></span>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero reveal" style="--d:0">
+      <div class="hero-copy">
+        <p class="kicker mono">Find / Qualify / Audit / Reach out</p>
+        <h1>Every product with docs<br>is a <em>conversation</em> waiting.</h1>
+        <p class="lede">Scrapes product directories, finds the ones with documentation, audits that documentation with AI, and drafts the opener. Every decision is shown, live.</p>
+      </div>
+
+      <form class="console" id="runForm" autocomplete="off">
+        <div class="console-head">
+          <span class="mono label">New run</span>
+          <span class="mono hint" id="keyWarning" hidden>OPENAI_API_KEY missing in .env</span>
+        </div>
+        <fieldset class="sources" id="sourcePills" aria-label="Sources"></fieldset>
+        <div class="console-row">
+          <div class="stepper" data-name="limit" data-min="1" data-max="50" data-value="4">
+            <span class="mono label">Leads / source</span>
+            <div class="stepper-ctl"><button type="button" data-delta="-1" aria-label="Fewer">-</button><output>4</output><button type="button" data-delta="1" aria-label="More">+</button></div>
+          </div>
+          <div class="stepper" data-name="concurrency" data-min="1" data-max="8" data-value="3">
+            <span class="mono label">In parallel</span>
+            <div class="stepper-ctl"><button type="button" data-delta="-1" aria-label="Fewer">-</button><output>3</output><button type="button" data-delta="1" aria-label="More">+</button></div>
+          </div>
+          <button class="btn-primary" id="runBtn" type="submit">
+            <span>Run pipeline</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </button>
+          <button class="btn-ghost" id="stopBtn" type="button" hidden>Stop</button>
+        </div>
+        <div class="audit-row">
+          <span class="mono label">or audit one site</span>
+          <div class="audit-input">
+            <input id="auditUrl" type="text" inputmode="url" placeholder="https://docs-heavy-product.com" aria-label="Website to audit">
+            <button type="button" id="auditBtn" class="btn-ink">Audit</button>
+          </div>
+        </div>
+        <p class="form-error mono" id="formError" role="alert" hidden></p>
+      </form>
+    </section>
+
+    <section class="stats reveal" style="--d:1" aria-label="Run totals">
+      <div class="stat"><span class="mono label">Collected</span><b id="statCollected">0</b><small id="statSources">no run yet</small></div>
+      <div class="stat"><span class="mono label">In flight</span><b id="statRunning">0</b><small id="statQueued">0 queued</small></div>
+      <div class="stat accent"><span class="mono label">Qualified</span><b id="statQualified">0</b><small id="statRate">-</small></div>
+      <div class="stat"><span class="mono label">Contacts</span><b id="statContacts">0</b><small id="statContactSplit">emails, phones</small></div>
+      <div class="stat"><span class="mono label">Avg doc score</span><b id="statDoc">-</b><small>out of 10</small></div>
+      <div class="stat"><span class="mono label">Elapsed</span><b id="statElapsed">0:00</b><small id="statRunId">-</small></div>
+    </section>
+
+    <section class="track-wrap reveal" style="--d:2" aria-label="Pipeline">
+      <header class="section-head">
+        <h2>The pipeline <em>live</em></h2>
+        <p class="mono">LangGraph / each station decides whether a lead continues</p>
+      </header>
+      <ol class="track" id="track"></ol>
+    </section>
+
+    <section class="lower reveal" style="--d:3">
+      <div class="ledger">
+        <header class="section-head">
+          <h2>Leads</h2>
+          <div class="tabs" role="tablist" id="tabs">
+            <button role="tab" data-filter="all" aria-selected="true">All <span></span></button>
+            <button role="tab" data-filter="qualified">Qualified <span></span></button>
+            <button role="tab" data-filter="active">In flight <span></span></button>
+            <button role="tab" data-filter="dropped">Dropped <span></span></button>
+          </div>
+        </header>
+        <div class="table" role="table" aria-label="Leads">
+          <div class="thead" role="row">
+            <span role="columnheader">Product</span>
+            <span role="columnheader">Progress</span>
+            <span role="columnheader" class="num">Docs</span>
+            <span role="columnheader" class="num">Lead</span>
+            <span role="columnheader">Status</span>
+          </div>
+          <div class="tbody" id="ledger"></div>
+          <div class="empty" id="ledgerEmpty">
+            <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M20 10h50l20 20v40H20z"/><path d="M70 10v20h20"/><path d="M32 42h36M32 52h24"/><circle cx="84" cy="62" r="10"/></svg>
+            <p>No leads yet. Pick sources and run the pipeline, or audit a single site.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="side">
+        <section class="panel">
+          <header class="panel-head"><h3>Sources</h3><span class="mono hint">collection</span></header>
+          <ul class="source-status" id="sourceStatus"></ul>
+        </section>
+        <section class="panel feed-panel">
+          <header class="panel-head"><h3>Activity</h3><button class="link mono" id="feedClear" type="button">clear</button></header>
+          <ol class="feed mono" id="feed" aria-live="polite"></ol>
+        </section>
+      </aside>
+    </section>
+
+    <footer class="foot mono">
+      <span>LeadScraper / POC</span>
+      <span id="footModel"></span>
+    </footer>
+  </main>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Lead dossier">
+    <button class="icon-btn drawer-close" id="drawerClose" aria-label="Close dossier">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="drawer-body" id="dossier"></div>
+  </aside>
+
+  <div class="toast mono" id="toast" role="status" hidden></div>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

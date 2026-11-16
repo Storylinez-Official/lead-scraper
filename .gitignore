@@ -1,0 +1,38 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+
+# Agent tooling
+.agit/
+.icn-lab/
+
+# Archives (regenerate from the folders they were made from)
+*.rar
+*.zip
+
+# Real scraped data stays local: runs, audits and showcase media contain real
+# people's names and emails. The repo ships anonymised runs in samples/, which
+# start.py copies into output/ on first start.
+output/
+audits/
+
+# Showcase: only the scripts and README are public. The deck, videos and
+# screenshots show real contacts; showcase/build.py regenerates them.
+showcase/*.pdf
+showcase/*.pptx
+showcase/videos/
+showcase/screenshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

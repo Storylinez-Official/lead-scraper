@@ -1,0 +1,58 @@
+{
+  "lead": {
+    "name": "affaan-m/ECC",
+    "website": "https://ecc.tools/",
+    "source": "github-developer-tools",
+    "source_url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "extra": {
+      "stars": 303707,
+      "language": "JavaScript",
+      "repo": "https://github.com/affaan-m/ECC",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ]
+    }
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 5.31,
+    "find_documentation": 4.89
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://ecc.tools/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "developer API",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The site offers a developer toolkit with plugins, npm packages, and integrations for coding agents, indicating a clear need for technical documentation such as API references, SDK guides, and setup instructions. The presence of installation commands, multiple integration methods, and a GitHub repository further supports this. The product is technical and developer-focused, making its owners likely to care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 2 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 2,
+    "signals": [
+      "+2 code_blocks (1)"
+    ],
+    "candidates": [
+      {
+        "url": "https://ecc.tools/",
+        "reason": "homepage",
+        "score": 2,
+        "signals": [
+          "+2 code_blocks (1)"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

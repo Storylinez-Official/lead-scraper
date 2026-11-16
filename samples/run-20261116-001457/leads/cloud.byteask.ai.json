@@ -1,0 +1,297 @@
+{
+  "lead": {
+    "name": "ByteAsk Cloud Agents",
+    "website": "https://cloud.byteask.ai/",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/byteask-cloud-agents",
+    "description": "",
+    "extra": {}
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 4.23,
+    "find_documentation": 12.03,
+    "collect_contacts": 25.09,
+    "purify_contacts": 0.8,
+    "analyze_documentation": 6.78,
+    "generate_report": 3.83
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://cloud.byteask.ai/",
+  "header_doc_links": [
+    {
+      "url": "https://byteask.ai/docs/",
+      "text": "Resources"
+    }
+  ],
+  "assessment": {
+    "business_type": "developer tool / AI coding assistant",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The product is an AI coding agent for C and C++ that integrates with developer tools and workflows, clearly requiring detailed technical documentation such as setup guides and API references. The presence of a 'Resources' link pointing to documentation and the technical nature of the product indicate the owners would care about documentation quality."
+  },
+  "docs": {
+    "doc_url": "https://byteask.ai/docs/",
+    "score": 6,
+    "signals": [
+      "+2 doc_url",
+      "+3 doc_platform (docusaurus)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://byteask.ai/docs/",
+        "reason": "header link 'Resources'",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (docusaurus)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://cloud.byteask.ai/docs",
+        "reason": "common docs path",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (docusaurus)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.byteask.ai/docs/",
+        "reason": "common docs subdomain",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (docusaurus)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://cloud.byteask.ai/",
+        "reason": "homepage",
+        "score": 3,
+        "signals": [
+          "+2 code_blocks (2)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "contact@byteask.ai": [
+        "https://cloud.byteask.ai/",
+        "https://cloud.byteask.ai/contact",
+        "https://byteask.ai/contact"
+      ],
+      "security@byteask.ai": [
+        "https://cloud.byteask.ai/",
+        "https://trust.byteask.ai/"
+      ],
+      "support@byteask.ai": [
+        "https://cloud.byteask.ai/"
+      ]
+    },
+    "phones": {
+      "11-50 51-200 200": [
+        "https://cloud.byteask.ai/contact",
+        "https://byteask.ai/contact",
+        "https://cloud.byteask.ai/contact?intent=enterprise"
+      ]
+    },
+    "pages_visited": [
+      "https://cloud.byteask.ai/",
+      "https://cloud.byteask.ai/contact",
+      "https://cloud.byteask.ai/team",
+      "https://cloud.byteask.ai/privacy",
+      "https://cloud.byteask.ai/careers",
+      "https://cloud.byteask.ai/terms",
+      "https://byteask.ai/docs/",
+      "https://byteask.ai/docs/slash-commands",
+      "https://byteask.ai/contact",
+      "https://byteask.ai/team",
+      "https://byteask.ai/careers",
+      "https://byteask.ai/privacy",
+      "https://byteask.ai/terms",
+      "https://cloud.byteask.ai/product",
+      "https://cloud.byteask.ai/enterprise",
+      "https://cloud.byteask.ai/customers",
+      "https://cloud.byteask.ai/research",
+      "https://cloud.byteask.ai/pricing",
+      "https://cloud.byteask.ai/contact?intent=enterprise",
+      "https://app.byteask.ai/account",
+      "https://cloud.byteask.ai/docs/setup/",
+      "https://cloud.byteask.ai/industries/trading-hft",
+      "https://cloud.byteask.ai/industries/embedded",
+      "https://cloud.byteask.ai/industries/automotive",
+      "https://cloud.byteask.ai/industries/silicon-fpga",
+      "https://cloud.byteask.ai/industries/industrial",
+      "https://cloud.byteask.ai/industries/systems",
+      "https://trust.byteask.ai/",
+      "https://cloud.byteask.ai/context",
+      "https://cloud.byteask.ai/cloud-agent"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "contact@byteask.ai",
+      "security@byteask.ai",
+      "support@byteask.ai"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "contact@byteask.ai",
+      "security@byteask.ai",
+      "support@byteask.ai"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "doc_metrics": {
+    "pages_sampled": 7,
+    "doc_nav_links": 6,
+    "code_blocks_total": 113,
+    "avg_words_per_page": 668,
+    "code_languages": [
+      "bash",
+      "json",
+      "powershell",
+      "text",
+      "toml"
+    ],
+    "has_search": true,
+    "signals_seen": [
+      "code_blocks",
+      "doc_headings",
+      "doc_platform",
+      "doc_url",
+      "install_command",
+      "many_code_blocks",
+      "sidebar_toc"
+    ],
+    "discovery_score": 6,
+    "discovery_signals": [
+      "+2 doc_url",
+      "+3 doc_platform (docusaurus)",
+      "+1 sidebar_toc"
+    ]
+  },
+  "doc_pages": [
+    {
+      "url": "https://byteask.ai/docs/",
+      "title": "ByteAsk docs | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/overview",
+      "title": "Overview | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/cli-reference",
+      "title": "CLI Reference | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/features",
+      "title": "Features | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/self-hosted-models",
+      "title": "Your Own Models | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/headless",
+      "title": "Headless & CI | ByteAsk Docs"
+    },
+    {
+      "url": "https://byteask.ai/docs/slash-commands",
+      "title": "Slash Commands | ByteAsk Docs"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "developer tool user manual",
+    "quality": {
+      "score": 8,
+      "justification": "The documentation is generally clear and well-written with detailed explanations, especially in the Overview and CLI Reference pages. Code examples are plentiful and relevant, covering installation, usage, and configuration. However, some sections like 'Your Own Models' and 'Headless & CI' are dense and could benefit from more step-by-step examples or clearer separation of concepts."
+    },
+    "completeness": {
+      "score": 7,
+      "justification": "The docs cover installation, quick start, CLI reference, features, custom models, headless usage, and slash commands. However, there is no sampled page explicitly covering error handling, troubleshooting, or a changelog. Also, some advanced topics like model management and sandboxing are explained but could use more practical examples or tutorials."
+    },
+    "usability": {
+      "score": 7,
+      "justification": "The documentation uses a sidebar TOC and has a search feature, aiding navigation. The structure is logical with overview, reference, and feature pages. However, the large amount of information on some pages (e.g., CLI Reference) might overwhelm new users. Some commands and features are only briefly mentioned without links to deeper explanations, which could hinder discoverability."
+    },
+    "overall_score": 7,
+    "strengths": [
+      "Comprehensive CLI reference with detailed flags and subcommands.",
+      "Clear installation instructions for multiple platforms.",
+      "Good explanation of features and sandboxing modes.",
+      "Includes examples for custom model integration and usage.",
+      "Search and sidebar TOC improve navigation."
+    ],
+    "weaknesses": [
+      "Lack of explicit troubleshooting or error handling sections in sampled pages.",
+      "Some pages are dense and could be broken down for clarity.",
+      "Limited examples for advanced features like BYOK and model management.",
+      "No changelog or update history found in sample.",
+      "Some commands and features lack cross-linking for deeper exploration."
+    ],
+    "missing_sections": [
+      "Error handling and troubleshooting guide",
+      "Changelog or release notes",
+      "Tutorials or step-by-step guides for advanced features",
+      "Detailed examples for scripting and CI integration",
+      "FAQ or common issues"
+    ]
+  },
+  "report": {
+    "executive_summary": "The ByteAsk Cloud Agents documentation is well-written and detailed, particularly excelling in installation guidance and CLI references. However, it lacks dedicated sections for troubleshooting, error handling, and changelogs, which are crucial for developer tools. Some advanced topics and dense pages could be improved with more step-by-step examples and better cross-linking to enhance usability and discoverability.",
+    "improvements": [
+      {
+        "area": "Error Handling and Troubleshooting",
+        "issue": "No explicit sections or guides for error handling and troubleshooting are present, which can hinder users when facing issues.",
+        "recommendation": "Add dedicated troubleshooting and error handling sections with common issues and solutions to assist users in resolving problems independently.",
+        "priority": "high"
+      },
+      {
+        "area": "Advanced Features Documentation",
+        "issue": "Advanced topics like BYOK, model management, and sandboxing lack practical examples and tutorials, making them harder to grasp.",
+        "recommendation": "Develop step-by-step tutorials and detailed examples for advanced features to improve user understanding and adoption.",
+        "priority": "high"
+      },
+      {
+        "area": "Documentation Structure and Clarity",
+        "issue": "Some pages, such as 'Your Own Models' and 'Headless & CI', are dense and overwhelming, with limited cross-linking to deeper explanations.",
+        "recommendation": "Break down dense pages into smaller, focused sections and add cross-links to related topics to improve clarity and navigation.",
+        "priority": "medium"
+      },
+      {
+        "area": "Changelog and Release Notes",
+        "issue": "No changelog or update history is available, limiting users' awareness of recent changes and improvements.",
+        "recommendation": "Introduce a changelog or release notes section to keep users informed about updates and new features.",
+        "priority": "medium"
+      },
+      {
+        "area": "Discoverability and Navigation",
+        "issue": "Some commands and features are briefly mentioned without links to detailed explanations, reducing discoverability.",
+        "recommendation": "Enhance cross-linking within the documentation to guide users to more comprehensive information on commands and features.",
+        "priority": "medium"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving Troubleshooting and Advanced Guides in ByteAsk Docs",
+      "body": "I noticed that the ByteAsk Cloud Agents documentation offers a thorough CLI reference and clear installation instructions, which is great. However, there doesn't seem to be a dedicated troubleshooting or error handling section, and some advanced topics like model management could benefit from more step-by-step examples. These enhancements could significantly help users navigate complex features and resolve issues more efficiently. If you're exploring ways to make these areas more accessible, I'd be interested in sharing some insights."
+    },
+    "lead_score": 65,
+    "lead_score_reason": "50 base; +0 docs scored 7/10; +5 team inbox or phone; +10 developer product, docs drive adoption"
+  }
+}

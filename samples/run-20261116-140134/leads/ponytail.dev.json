@@ -1,0 +1,139 @@
+{
+  "lead": {
+    "name": "DietrichGebert/ponytail",
+    "website": "https://ponytail.dev/",
+    "source": "github-developer-tools",
+    "source_url": "https://github.com/DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "extra": {
+      "stars": 191672,
+      "language": "JavaScript",
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ]
+    }
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 3.72,
+    "find_documentation": 6.25
+  },
+  "stage": "find_documentation",
+  "homepage_url": "https://ponytail.dev/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "developer tool / AI coding assistant",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The product is a developer-focused AI coding assistant that integrates with codebases and performs code reviews and audits. Such a technical product almost certainly requires developer documentation, API references, installation guides, and usage instructions. The detailed descriptions and technical benchmarks indicate the owners would care about documentation quality."
+  },
+  "skip_reason": "no documentation found (best score 5 < 6)",
+  "docs": {
+    "doc_url": null,
+    "score": 5,
+    "signals": [
+      "+2 code_blocks (5)",
+      "+1 many_code_blocks",
+      "+2 doc_url"
+    ],
+    "candidates": [
+      {
+        "url": "https://ponytail.dev/docs",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/documentation",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/developers",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/api",
+        "reason": "common docs path",
+        "score": 3,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/reference",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/guide",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/help",
+        "reason": "common docs path",
+        "score": 5,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://ponytail.dev/",
+        "reason": "homepage",
+        "score": 3,
+        "signals": [
+          "+2 code_blocks (5)",
+          "+1 many_code_blocks"
+        ],
+        "fetched": true
+      }
+    ]
+  }
+}

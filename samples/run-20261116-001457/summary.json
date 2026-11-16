@@ -1,0 +1,11 @@
+{
+  "total": 12,
+  "by_status": {
+    "qualified": 6,
+    "skipped": 6
+  },
+  "stopped_at": {
+    "find_documentation": 5,
+    "collect_contacts": 1
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "lead": {
+    "name": "Boost.space",
+    "website": "https://boost.space/",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/boost-space",
+    "description": "",
+    "extra": {}
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 4.19,
+    "find_documentation": 112.73,
+    "collect_contacts": 18.45
+  },
+  "stage": "collect_contacts",
+  "homepage_url": "https://boost.space/",
+  "header_doc_links": [
+    {
+      "url": "https://boost.space/developers",
+      "text": "Developers"
+    },
+    {
+      "url": "https://docs.boost.space/",
+      "text": "Documentation"
+    }
+  ],
+  "assessment": {
+    "business_type": "B2B SaaS",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "The website offers a specialized AI agent platform (AgentOS) for product catalog revenue management, which is a technical SaaS product. It has clear developer and documentation sections, indicating the presence of technical documentation. The product's complexity and developer focus make it likely that the owners care about documentation quality."
+  },
+  "docs": {
+    "doc_url": "https://docs.boost.space/",
+    "score": 6,
+    "signals": [
+      "+2 doc_url",
+      "+3 doc_platform (scalar)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.boost.space/",
+        "reason": "header link 'Documentation'",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (scalar)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://boost.space/developers",
+        "reason": "header link 'Developers'",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://developer.boost.space/auth/login",
+        "reason": "common docs subdomain",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://docs.boost.space/",
+        "reason": "common docs subdomain",
+        "score": 6,
+        "signals": [
+          "+2 doc_url",
+          "+3 doc_platform (scalar)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://help.boost.space/auth/login",
+        "reason": "common docs subdomain",
+        "score": 2,
+        "signals": [
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://boost.space/",
+        "reason": "homepage",
+        "score": 0,
+        "signals": [],
+        "fetched": true
+      }
+    ]
+  },
+  "skip_reason": "no contact information found (30 pages crawled)",
+  "raw_contacts": {
+    "emails": {},
+    "phones": {},
+    "pages_visited": [
+      "https://boost.space/",
+      "https://boost.space/contact-sales",
+      "https://boost.space/about",
+      "https://boost.space/about",
+      "https://boost.space/policies",
+      "https://boost.space/contact-sales",
+      "https://boost.space/contact-sales",
+      "https://docs.boost.space/",
+      "https://docs.boost.space/guides/agents",
+      "https://docs.boost.space/guides/skills",
+      "https://docs.boost.space/guides/data",
+      "https://docs.boost.space/guides/superpowers",
+      "https://docs.boost.space/support",
+      "https://boost.space/agent-os",
+      "https://boost.space/case-studies",
+      "https://boost.space/pricing",
+      "https://gate.boost.space/",
+      "https://boost.space/ai-agents/product-catalog-agent",
+      "https://boost.space/ai-agents/geo-optimization-agent",
+      "https://boost.space/ai-agents/dynamic-pricing-agent",
+      "https://boost.space/ai-agents/product-enrichment-agent",
+      "https://boost.space/ai-agents/marketplace-growth-agent",
+      "https://boost.space/ai-agents/ai-agent-vs-chat",
+      "https://boost.space/agent-os",
+      "https://boost.space/agent-os",
+      "https://boost.space/agent-os",
+      "https://boost.space/agent-os",
+      "https://boost.space/agent-os",
+      "https://boost.space/agent-os",
+      "https://boost.space/ai-agents"
+    ]
+  }
+}

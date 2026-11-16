@@ -1,0 +1,263 @@
+{
+  "lead": {
+    "name": "Polylane",
+    "website": "https://polylane.com/",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/polylane",
+    "description": "",
+    "extra": {}
+  },
+  "status": "qualified",
+  "timings": {
+    "assess_business": 4.42,
+    "find_documentation": 10.12,
+    "collect_contacts": 15.92,
+    "purify_contacts": 3.89,
+    "analyze_documentation": 3.74,
+    "generate_report": 3.26
+  },
+  "stage": "generate_report",
+  "homepage_url": "https://polylane.com/",
+  "header_doc_links": [
+    {
+      "url": "https://polylane.com/learn/",
+      "text": "Guides Step-by-step guides to running production, and fixes for the errors it throws."
+    },
+    {
+      "url": "https://docs.polylane.com/",
+      "text": "Docs Set up Polylane and connect your stack."
+    }
+  ],
+  "assessment": {
+    "business_type": "B2B SaaS",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.95,
+    "reasoning": "Polylane is a technical SaaS product focused on automated detection and fixing of production issues in cloud applications, integrating with many developer platforms and cloud providers. The site includes explicit links to guides and documentation, indicating the presence of technical docs. As a developer-focused platform, its owners would likely care about documentation quality."
+  },
+  "docs": {
+    "doc_url": "https://docs.polylane.com/getting-started",
+    "score": 9,
+    "signals": [
+      "+2 code_blocks (1)",
+      "+1 doc_headings (quickstart)",
+      "+2 doc_url",
+      "+3 doc_platform (fern)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.polylane.com/getting-started",
+        "reason": "header link 'Docs Set up Polylane and connect your stack.'",
+        "score": 9,
+        "signals": [
+          "+2 code_blocks (1)",
+          "+1 doc_headings (quickstart)",
+          "+2 doc_url",
+          "+3 doc_platform (fern)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://polylane.com/learn/",
+        "reason": "header link 'Guides Step-by-step guides to running production, and fixes for the errors it throws.'",
+        "score": 3,
+        "signals": [
+          "+2 doc_url",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://polylane.com/developers/",
+        "reason": "common docs path",
+        "score": 9,
+        "signals": [
+          "+2 code_blocks (2)",
+          "+1 inline_code (13)",
+          "+2 curl_example",
+          "+2 doc_headings (rate limits, sdk)",
+          "+2 doc_url"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://polylane.com/",
+        "reason": "homepage",
+        "score": 7,
+        "signals": [
+          "+2 code_blocks (1)",
+          "+1 inline_code (9)",
+          "+3 http_endpoints",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      }
+    ]
+  },
+  "raw_contacts": {
+    "emails": {
+      "person1@coreplane.ai": [
+        "https://polylane.com/",
+        "https://polylane.com/contact/",
+        "https://polylane.com/about/"
+      ],
+      "security@polylane.com": [
+        "https://polylane.com/contact/"
+      ],
+      "privacy@polylane.com": [
+        "https://polylane.com/privacy/"
+      ],
+      "help@coreplane.ai": [
+        "https://polylane.com/terms/"
+      ]
+    },
+    "phones": {},
+    "pages_visited": [
+      "https://polylane.com/",
+      "https://polylane.com/contact/",
+      "https://polylane.com/about/",
+      "https://polylane.com/about/",
+      "https://polylane.com/press/",
+      "https://polylane.com/careers/",
+      "https://polylane.com/privacy/",
+      "https://polylane.com/terms/",
+      "https://polylane.com/contact/",
+      "https://polylane.com/careers/founding-engineer/",
+      "https://polylane.com/careers/founding-growth/",
+      "https://polylane.com/careers/founding-researcher/",
+      "https://docs.polylane.com/getting-started",
+      "https://polylane.com/use-cases/",
+      "https://polylane.com/for/claude-code/",
+      "https://polylane.com/for/chatgpt/",
+      "https://polylane.com/for/cursor/",
+      "https://polylane.com/for/codex/",
+      "https://polylane.com/for/opencode/",
+      "https://polylane.com/for/copilot/",
+      "https://polylane.com/for/pi/",
+      "https://polylane.com/use-cases/impact-analysis/",
+      "https://polylane.com/use-cases/security/",
+      "https://polylane.com/use-cases/devops/",
+      "https://polylane.com/use-cases/ai-sre/",
+      "https://polylane.com/blog/proactive-agents/",
+      "https://polylane.com/use-cases/continuous-integration/",
+      "https://polylane.com/use-cases/ticket-resolution/",
+      "https://polylane.com/integrations/",
+      "https://polylane.com/integrations/coding_agent/"
+    ]
+  },
+  "contacts": {
+    "emails": [
+      "person1@coreplane.ai",
+      "security@polylane.com",
+      "privacy@polylane.com"
+    ],
+    "phone_numbers": []
+  },
+  "contact_guard": {
+    "llm_emails": [
+      "person1@coreplane.ai",
+      "security@polylane.com",
+      "privacy@polylane.com"
+    ],
+    "llm_phone_numbers": [],
+    "rejected_by_guard": []
+  },
+  "doc_metrics": {
+    "pages_sampled": 2,
+    "doc_nav_links": 1,
+    "code_blocks_total": 1,
+    "avg_words_per_page": 756,
+    "code_languages": [
+      "bash"
+    ],
+    "has_search": true,
+    "signals_seen": [
+      "code_blocks",
+      "doc_headings",
+      "doc_platform",
+      "doc_url",
+      "sidebar_toc"
+    ],
+    "discovery_score": 9,
+    "discovery_signals": [
+      "+2 code_blocks (1)",
+      "+1 doc_headings (quickstart)",
+      "+2 doc_url",
+      "+3 doc_platform (fern)",
+      "+1 sidebar_toc"
+    ]
+  },
+  "doc_pages": [
+    {
+      "url": "https://docs.polylane.com/getting-started",
+      "title": "Quickstart - Polylane Docs"
+    },
+    {
+      "url": "https://docs.polylane.com/getting-started/how-it-works",
+      "title": "How Polylane works - Polylane Docs"
+    }
+  ],
+  "doc_analysis": {
+    "doc_type": "B2B SaaS product user guide",
+    "quality": {
+      "score": 8,
+      "justification": "The documentation is clear and well-written with concise explanations and a helpful quickstart guide. The single bash code block for CLI installation is straightforward, but more diverse code examples or screenshots could improve clarity."
+    },
+    "completeness": {
+      "score": 6,
+      "justification": "The sample covers quickstart and conceptual overview well, including key concepts and workflow primitives. However, it lacks detailed sections on authentication, error handling, advanced configuration, and a comprehensive API reference in the sampled pages."
+    },
+    "usability": {
+      "score": 7,
+      "justification": "The docs have a sidebar TOC and search functionality, aiding navigation. The quickstart page is well structured with step-by-step instructions. However, only one navigation link was detected, and the large number of integrations listed without direct links may hinder discoverability."
+    },
+    "overall_score": 7,
+    "strengths": [
+      "Clear quickstart guide with practical steps to get started.",
+      "Good conceptual explanation of product workflow and primitives.",
+      "Search and sidebar TOC present for navigation."
+    ],
+    "weaknesses": [
+      "Limited code examples and no screenshots to aid understanding.",
+      "Sparse navigation links detected, potentially limiting ease of exploration.",
+      "Missing detailed sections on authentication, error handling, and API usage in sampled pages."
+    ],
+    "missing_sections": [
+      "Authentication details and setup.",
+      "Error handling and troubleshooting guide.",
+      "Comprehensive API reference with examples.",
+      "Detailed configuration and administration guides."
+    ]
+  },
+  "report": {
+    "executive_summary": "Polylane's documentation provides a clear and concise quickstart guide and a solid conceptual overview of the product's workflow. Navigation is supported by a sidebar TOC and search functionality, enhancing usability. However, the documentation lacks depth in critical areas such as authentication, error handling, advanced configuration, and a comprehensive API reference. Additionally, the limited number of code examples and absence of screenshots may hinder user understanding, and sparse navigation links could reduce ease of exploration.",
+    "improvements": [
+      {
+        "area": "Code Examples and Visual Aids",
+        "issue": "Only one bash code block is provided with no screenshots, limiting clarity and practical understanding.",
+        "recommendation": "Add diverse code examples in multiple languages and include screenshots or diagrams to illustrate key concepts and workflows.",
+        "priority": "high"
+      },
+      {
+        "area": "Documentation Completeness",
+        "issue": "Missing detailed sections on authentication, error handling, advanced configuration, and a comprehensive API reference.",
+        "recommendation": "Develop dedicated sections covering authentication setup, error handling procedures, advanced configuration options, and a full API reference with examples.",
+        "priority": "high"
+      },
+      {
+        "area": "Navigation and Discoverability",
+        "issue": "Only one navigation link detected and many integrations listed without direct links, which may hinder discoverability.",
+        "recommendation": "Increase the number of internal navigation links and provide direct links to integration documentation to improve user exploration and discovery.",
+        "priority": "medium"
+      }
+    ],
+    "outreach": {
+      "subject": "Improving Polylane Docs: Authentication and Code Examples",
+      "body": "I reviewed Polylane's documentation and noticed the quickstart guide is clear but includes only a single bash code block without screenshots, which might limit user understanding. Also, detailed sections on authentication and error handling seem to be missing, which are crucial for users integrating your product. Enhancing these areas could significantly improve the developer experience and reduce support queries. Let me know if you'd like to discuss some practical ways to address these gaps."
+    },
+    "lead_score": 50,
+    "lead_score_reason": "50 base; +0 docs scored 7/10; +10 direct contact (person1@coreplane.ai); -10 very small docs site"
+  }
+}

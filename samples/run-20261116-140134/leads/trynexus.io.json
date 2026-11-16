@@ -1,0 +1,87 @@
+{
+  "lead": {
+    "name": "Nexus",
+    "website": "https://trynexus.io/",
+    "source": "producthunt-developer-tools",
+    "source_url": "https://www.producthunt.com/products/nexus-11",
+    "description": "",
+    "extra": {}
+  },
+  "status": "skipped",
+  "timings": {
+    "assess_business": 4.06,
+    "find_documentation": 9.66,
+    "collect_contacts": 19.92
+  },
+  "stage": "collect_contacts",
+  "homepage_url": "https://trynexus.io/",
+  "header_doc_links": [],
+  "assessment": {
+    "business_type": "B2B SaaS",
+    "likely_has_documentation": true,
+    "worth_pursuing": true,
+    "confidence": 0.9,
+    "reasoning": "Nexus is a B2B SaaS product focused on managing deployment contexts and integrating with various developer and collaboration tools, which strongly implies the need for technical documentation such as user manuals, integration guides, and API references. The product targets technical users who would value high-quality documentation."
+  },
+  "docs": {
+    "doc_url": "https://docs.trynexus.io/",
+    "score": 10,
+    "signals": [
+      "+1 inline_code (17)",
+      "+3 doc_headings (configuration, getting started, quickstart)",
+      "+2 doc_url",
+      "+3 doc_platform (mintlify)",
+      "+1 sidebar_toc"
+    ],
+    "candidates": [
+      {
+        "url": "https://docs.trynexus.io/",
+        "reason": "common docs subdomain",
+        "score": 10,
+        "signals": [
+          "+1 inline_code (17)",
+          "+3 doc_headings (configuration, getting started, quickstart)",
+          "+2 doc_url",
+          "+3 doc_platform (mintlify)",
+          "+1 sidebar_toc"
+        ],
+        "fetched": true
+      },
+      {
+        "url": "https://trynexus.io/",
+        "reason": "homepage",
+        "score": 0,
+        "signals": [],
+        "fetched": true
+      }
+    ]
+  },
+  "skip_reason": "no contact information found (21 pages crawled)",
+  "raw_contacts": {
+    "emails": {},
+    "phones": {},
+    "pages_visited": [
+      "https://trynexus.io/",
+      "https://docs.trynexus.io/",
+      "https://trynexus.io/blogs",
+      "https://trynexus.io/blogs/context-is-changing-and-you-didnt-even-know",
+      "https://trynexus.io/blogs/what-evals-miss-once-your-support-agent-goes-live",
+      "https://app.trynexus.io/login",
+      "https://docs.trynexus.io/api-reference/introduction",
+      "https://docs.trynexus.io/quickstart",
+      "https://docs.trynexus.io/guides/manual-tracing",
+      "https://docs.trynexus.io/guides/langchain",
+      "https://docs.trynexus.io/guides/openai",
+      "https://docs.trynexus.io/guides/tree-inspection",
+      "https://docs.trynexus.io/guides/configuration",
+      "https://docs.trynexus.io/guides/production-checklist",
+      "https://trynexus.io/blogs/change-management-is-a-context-problem",
+      "https://trynexus.io/blogs/fdes-connect-everything-problem-solved-not-quite",
+      "https://trynexus.io/blogs/the-interesting-case-of-domain-specific-agents",
+      "https://trynexus.io/blogs/whats-missing-with-your-sourcing-agent",
+      "https://app.trynexus.io/register",
+      "https://docs.trynexus.io/api-reference/python-client",
+      "https://docs.trynexus.io/api-reference/langchain-handler"
+    ]
+  }
+}

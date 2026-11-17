@@ -7,7 +7,7 @@
       -?-> purify_contacts      (4)   LLM cleans the list (structured output), code guards it
       -?-> research_company     (4.5) team pages + changelog: named people, recent intent signals (never drops)
       -?-> analyze_documentation(5)   sample doc pages, LLM scores them
-      ->  generate_report       (6)   LLM summary, improvements, outreach opener
+      -?-> generate_report      (6)   LLM summary, improvements, outreach opener
       -> END
 
 Each node decides whether the lead survives and sets `status`. Every
@@ -403,32 +403,100 @@ def _json(obj: Any) -> str:
 
 # --- graph -------------------------------------------------------------------
 
-STEPS: list[tuple[str, NodeFn]] = [
-    ("assess_business", assess_business),
-    ("find_documentation", find_docs),
-    ("collect_contacts", collect_contacts),
-    ("purify_contacts", purify_contacts),
-    ("research_company", research_company),
-    ("analyze_documentation", analyze_documentation),
-    ("generate_report", generate_report),
+# Node order as shown on the dashboard; keep in step with build_graph below.
+STEPS: list[str] = [
+    "assess_business",
+    "find_documentation",
+    "collect_contacts",
+    "purify_contacts",
+    "research_company",
+    "analyze_documentation",
+    "generate_report",
 ]
 
 
-def _continue_to(next_node: str):
-    def route(state: LeadState) -> str:
-        return next_node if state.get("status") == "running" else END
+def _keep_going(state: LeadState) -> str:
+    """Router for every conditional edge: carry on while the lead is still running."""
+    return "next" if state.get("status") == "running" else "stop"
 
-    return route
+
+# --- node refs ---
+# Each step wrapped by _node, which records its timing and stage and turns an
+# exception into status="error" so one bad site cannot kill the batch.
+
+# 2.1  Fetch the homepage, LLM decides if the business is worth pursuing.
+assess_business_node = _node("assess_business", assess_business)
+# 2.2  Score candidate pages and pick the documentation URL.
+find_documentation_node = _node("find_documentation", find_docs)
+# 3    Crawl the site and regex out emails and phone numbers.
+collect_contacts_node = _node("collect_contacts", collect_contacts)
+# 4    LLM cleans the contact list; a code guard rejects anything it invented.
+purify_contacts_node = _node("purify_contacts", purify_contacts)
+# 4.5  Team pages + changelog: named people and recent signals (informational only).
+research_company_node = _node("research_company", research_company)
+# 5    Sample doc pages and have the LLM score quality, completeness, usability.
+analyze_documentation_node = _node("analyze_documentation", analyze_documentation)
+# 6    Write the summary and outreach opener, compute the lead score, mark qualified.
+generate_report_node = _node("generate_report", generate_report)
+
+
+# --- edge refs ---
+# Path maps for the conditional edges. _keep_going returns "next" while
+# status == "running"; any other status ("skipped", "error") takes "stop" to END.
+
+# stop: homepage unreachable, or LLM says not worth pursuing
+after_assess_business = {"next": "find_documentation", "stop": END}
+# stop: no candidate page scored above the docs threshold
+after_find_documentation = {"next": "collect_contacts", "stop": END}
+# stop: crawl found no emails or phone numbers
+after_collect_contacts = {"next": "purify_contacts", "stop": END}
+# stop: nothing survived purification
+after_purify_contacts = {"next": "research_company", "stop": END}
+# stop: only on an unexpected error; research never skips a lead itself
+after_research_company = {"next": "analyze_documentation", "stop": END}
+# stop: documentation page unreachable
+after_analyze_documentation = {"next": "generate_report", "stop": END}
 
 
 def build_graph():
+    """Wire the pipeline: START -> seven steps in a line -> END, with an exit after each step."""
     g = StateGraph(LeadState, context_schema=PipelineContext)
-    for name, fn in STEPS:
-        g.add_node(name, _node(name, fn))
-    g.add_edge(START, STEPS[0][0])
-    for (name, _), (next_name, _) in zip(STEPS, STEPS[1:]):
-        g.add_conditional_edges(name, _continue_to(next_name), {next_name: next_name, END: END})
-    g.add_edge(STEPS[-1][0], END)
+
+    # --- nodes ---
+    g.add_node("assess_business", assess_business_node)
+    g.add_node("find_documentation", find_documentation_node)
+    g.add_node("collect_contacts", collect_contacts_node)
+    g.add_node("purify_contacts", purify_contacts_node)
+    g.add_node("research_company", research_company_node)
+    g.add_node("analyze_documentation", analyze_documentation_node)
+    g.add_node("generate_report", generate_report_node)
+
+    # --- edges ---
+    # Every lead enters at the business assessment.
+    g.add_edge(START, "assess_business")
+    # Each step either hands off to the next one or ends the run early.
+    #
+    # add_conditional_edges(source, path, path_map):
+    #   source    the node this edge leaves from. The edge is evaluated each
+    #             time that node finishes.
+    #   path      the router, called with the current state (the source node's
+    #             update already merged in). It returns a key, here "next" or
+    #             "stop". Without a path_map it would have to return node names.
+    #   path_map  maps each key the router can return to a destination node
+    #             (END finishes the run). It also tells LangGraph every possible
+    #             destination up front, so the drawn graph shows exactly these
+    #             two arrows instead of an arrow to every node.
+    #
+    # Plain add_edge(a, b) is the unconditional version: always go from a to b.
+    g.add_conditional_edges("assess_business", _keep_going, after_assess_business)
+    g.add_conditional_edges("find_documentation", _keep_going, after_find_documentation)
+    g.add_conditional_edges("collect_contacts", _keep_going, after_collect_contacts)
+    g.add_conditional_edges("purify_contacts", _keep_going, after_purify_contacts)
+    g.add_conditional_edges("research_company", _keep_going, after_research_company)
+    g.add_conditional_edges("analyze_documentation", _keep_going, after_analyze_documentation)
+    # The report is the last step; the lead is qualified when it gets here.
+    g.add_edge("generate_report", END)
+
     return g.compile()
 
 

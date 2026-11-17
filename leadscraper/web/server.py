@@ -170,7 +170,7 @@ def create_app(settings: Settings) -> FastAPI:
         ]
         steps = [
             {"node": name, "num": STEP_INFO[name][0], "label": STEP_INFO[name][1], "desc": STEP_INFO[name][2]}
-            for name, _ in STEPS
+            for name in STEPS
         ]
         return {
             "model": settings.openai_model,
